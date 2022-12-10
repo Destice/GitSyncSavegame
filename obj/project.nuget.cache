@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AjXgdcbZJ0z0rZO64Ajq5XDg423oJ4sR+b0wg5iKQgOo0xtcet/C2kW3XiVx3rKAVGgso5beh0WequNvWZ3PrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rchro\\source\\repos\\GitSyncSavegame\\GitSyncSavegame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rchro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
