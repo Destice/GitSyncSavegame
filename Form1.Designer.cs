@@ -36,6 +36,8 @@ namespace GitSyncSavegame
             this.saveButton = new System.Windows.Forms.Button();
             this.pullButton = new System.Windows.Forms.Button();
             this.pushButton = new System.Windows.Forms.Button();
+            this.cloneButton = new System.Windows.Forms.Button();
+            this.initButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // gitPathBox
@@ -100,11 +102,33 @@ namespace GitSyncSavegame
             this.pushButton.UseVisualStyleBackColor = true;
             this.pushButton.Click += new System.EventHandler(this.pushButton_Click);
             // 
+            // cloneButton
+            // 
+            this.cloneButton.Location = new System.Drawing.Point(142, 93);
+            this.cloneButton.Name = "cloneButton";
+            this.cloneButton.Size = new System.Drawing.Size(75, 23);
+            this.cloneButton.TabIndex = 7;
+            this.cloneButton.Text = "Clone";
+            this.cloneButton.UseVisualStyleBackColor = true;
+            this.cloneButton.Click += new System.EventHandler(this.cloneButton_Click);
+            // 
+            // initButton
+            // 
+            this.initButton.Location = new System.Drawing.Point(223, 93);
+            this.initButton.Name = "initButton";
+            this.initButton.Size = new System.Drawing.Size(75, 23);
+            this.initButton.TabIndex = 8;
+            this.initButton.Text = "Init";
+            this.initButton.UseVisualStyleBackColor = true;
+            this.initButton.Click += new System.EventHandler(this.initButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.initButton);
+            this.Controls.Add(this.cloneButton);
             this.Controls.Add(this.pushButton);
             this.Controls.Add(this.pullButton);
             this.Controls.Add(this.saveButton);
@@ -128,6 +152,8 @@ namespace GitSyncSavegame
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.Button pullButton;
         private System.Windows.Forms.Button pushButton;
+        private System.Windows.Forms.Button cloneButton;
+        private System.Windows.Forms.Button initButton;
     }
 }
 

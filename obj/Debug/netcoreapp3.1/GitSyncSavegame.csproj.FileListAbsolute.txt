@@ -1,0 +1,15 @@
+C:\Users\rchro\source\repos\GitSyncSavegame\bin\Debug\netcoreapp3.1\GitSyncSavegame.exe
+C:\Users\rchro\source\repos\GitSyncSavegame\bin\Debug\netcoreapp3.1\GitSyncSavegame.deps.json
+C:\Users\rchro\source\repos\GitSyncSavegame\bin\Debug\netcoreapp3.1\GitSyncSavegame.runtimeconfig.json
+C:\Users\rchro\source\repos\GitSyncSavegame\bin\Debug\netcoreapp3.1\GitSyncSavegame.runtimeconfig.dev.json
+C:\Users\rchro\source\repos\GitSyncSavegame\bin\Debug\netcoreapp3.1\GitSyncSavegame.dll
+C:\Users\rchro\source\repos\GitSyncSavegame\bin\Debug\netcoreapp3.1\GitSyncSavegame.pdb
+C:\Users\rchro\source\repos\GitSyncSavegame\obj\Debug\netcoreapp3.1\GitSyncSavegame.csprojAssemblyReference.cache
+C:\Users\rchro\source\repos\GitSyncSavegame\obj\Debug\netcoreapp3.1\GitSyncSavegame.Form1.resources
+C:\Users\rchro\source\repos\GitSyncSavegame\obj\Debug\netcoreapp3.1\GitSyncSavegame.csproj.GenerateResource.cache
+C:\Users\rchro\source\repos\GitSyncSavegame\obj\Debug\netcoreapp3.1\GitSyncSavegame.AssemblyInfoInputs.cache
+C:\Users\rchro\source\repos\GitSyncSavegame\obj\Debug\netcoreapp3.1\GitSyncSavegame.AssemblyInfo.cs
+C:\Users\rchro\source\repos\GitSyncSavegame\obj\Debug\netcoreapp3.1\GitSyncSavegame.csproj.CoreCompileInputs.cache
+C:\Users\rchro\source\repos\GitSyncSavegame\obj\Debug\netcoreapp3.1\GitSyncSavegame.dll
+C:\Users\rchro\source\repos\GitSyncSavegame\obj\Debug\netcoreapp3.1\GitSyncSavegame.pdb
+C:\Users\rchro\source\repos\GitSyncSavegame\obj\Debug\netcoreapp3.1\GitSyncSavegame.genruntimeconfig.cache
