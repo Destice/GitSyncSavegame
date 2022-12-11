@@ -19,6 +19,7 @@ namespace GitSyncSavegame
             userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             gitPath = gitPathBox.Text = Properties.Settings.Default.StoredGitPath;
             savePath = savePathBox.Text = Properties.Settings.Default.StoredSavePath;
+            repoName = gitPath.Split("/")[gitPath.Split("/").Length - 1];
         }
 
         private void executeCommand(string command)
@@ -64,7 +65,7 @@ namespace GitSyncSavegame
         {
             if (gitPath != null && savePath != null)
             {
-                gitPush = "cd " + savePath + " && cd " + repoName + " && git add . && git commit -m \"" + userName + "\" && git push";
+                gitPush = "cd " + savePath + " && cd " + repoName + " && cd savegame3 && git add . && git commit -m \"" + userName + "\" && git push";
                 executeCommand(gitPush);
             }
         }
@@ -76,8 +77,24 @@ namespace GitSyncSavegame
                 //MessageBox.Show(gitPath + "   " + savePath);
                 //gitClone = "/C cd " + savePath + " && git clone " + gitPath + " && cd " + repoName + " && git init";
 
-                gitClone = "cd " + savePath + " && git clone " + gitPath;
+                //gitClone = "/K cd " + savePath + " && del /f savegame3 && git clone " + gitPath;// + " && cd " + repoName + " && git init";
+                //string addOrigin = "/K cd " + savePath + " && cd " + repoName +
+                //    " && del /F /Q savegame3 && git init && git remote add origin " + gitPath;
+                //System.Diagnostics.Process.Start("CMD.exe", addOrigin);
+
+                //string pull = "/C git pull";
+                //System.Diagnostics.Process.Start("CMD.exe", pull);
+
+                //string checkout = "/C git checkout main -f && git pull && git branch --set-upstream-to origin/main";
+                //System.Diagnostics.Process.Start("CMD.exe", checkout);
+
+                gitClone = "cd " + savePath + " && cd " + repoName +
+                    " && del /F /Q savegame3 && del /F /Q .git && git init && git remote add origin " + gitPath +
+                    " && git pull & git checkout main -f && git branch --set-upstream-to origin/main";// + " && cd " + repoName + " && git init";
+                //System.Diagnostics.Process.Start("CMD.exe", gitClone);
+
                 executeCommand(gitClone);
+                //executeCommand("git checkout main -f && git branch --set-upstream-to origin/main");
 
 
                 //statusTextBox.Text = "savepath: " + GitSyncSavegame.Properties.Settings.Default.StoredSavePath;
