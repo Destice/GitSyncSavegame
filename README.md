@@ -21,3 +21,4 @@ small app with GUI to pull/push game saves to git repo
 
 3. After you finish playing - click Push
 
+![image](https://user-images.githubusercontent.com/83007545/206921351-c488f73b-6ddd-4f4b-a2b1-2ac6b647bae4.png)
