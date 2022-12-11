@@ -5,7 +5,10 @@
     <Setting Name="StoredGitPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="StoredSavePath" Type="System.String" Scope="User">
+    <Setting Name="StoredGameSaveFilesPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StoredSyncedFilePath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

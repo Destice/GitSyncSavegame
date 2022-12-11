@@ -38,12 +38,24 @@ namespace GitSyncSavegame.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string StoredSavePath {
+        public string StoredGameSaveFilesPath {
             get {
-                return ((string)(this["StoredSavePath"]));
+                return ((string)(this["StoredGameSaveFilesPath"]));
             }
             set {
-                this["StoredSavePath"] = value;
+                this["StoredGameSaveFilesPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string StoredSyncedFilePath {
+            get {
+                return ((string)(this["StoredSyncedFilePath"]));
+            }
+            set {
+                this["StoredSyncedFilePath"] = value;
             }
         }
     }
