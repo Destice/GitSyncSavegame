@@ -1,0 +1,5 @@
+C:\Users\rchro\Desktop\GitSyncSavegame.exe
+C:\Users\rchro\Desktop\GitSyncSavegame.dll
+C:\Users\rchro\Desktop\GitSyncSavegame.deps.json
+C:\Users\rchro\Desktop\GitSyncSavegame.runtimeconfig.json
+C:\Users\rchro\Desktop\GitSyncSavegame.pdb

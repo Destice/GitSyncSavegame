@@ -37,6 +37,7 @@ namespace GitSyncSavegame
             this.pullButton = new System.Windows.Forms.Button();
             this.pushButton = new System.Windows.Forms.Button();
             this.cloneButton = new System.Windows.Forms.Button();
+            this.statusTextBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // gitPathBox
@@ -111,11 +112,20 @@ namespace GitSyncSavegame
             this.cloneButton.UseVisualStyleBackColor = true;
             this.cloneButton.Click += new System.EventHandler(this.cloneButton_Click);
             // 
+            // statusTextBox
+            // 
+            this.statusTextBox.Location = new System.Drawing.Point(12, 138);
+            this.statusTextBox.Name = "statusTextBox";
+            this.statusTextBox.Size = new System.Drawing.Size(776, 300);
+            this.statusTextBox.TabIndex = 8;
+            this.statusTextBox.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.statusTextBox);
             this.Controls.Add(this.cloneButton);
             this.Controls.Add(this.pushButton);
             this.Controls.Add(this.pullButton);
@@ -141,6 +151,7 @@ namespace GitSyncSavegame
         private System.Windows.Forms.Button pullButton;
         private System.Windows.Forms.Button pushButton;
         private System.Windows.Forms.Button cloneButton;
+        private System.Windows.Forms.RichTextBox statusTextBox;
     }
 }
 
